@@ -79,3 +79,4 @@ git config --global fetch.fsck.badTimezone ignore
 
 Baseline commit 1
 Baseline commit 2
+Baseline commit 3
