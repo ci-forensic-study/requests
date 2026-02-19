@@ -34,7 +34,7 @@ def count_files(path="."):
 
 # Capture specific security-relevant hashes
 workflow_hash = file_hash(".github/workflows/ci.yml")
-requirements_hash = file_hash("requirements.txt")
+requirements_hash = file_hash("requirements-dev.txt")
 
 log_entry = {
     "timestamp": time.time(),
